@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/not-todo-list/static/css/main.b35cfdb3.css",
+    "main.js": "/not-todo-list/static/js/main.35755d36.js",
+    "index.html": "/not-todo-list/index.html",
+    "main.b35cfdb3.css.map": "/not-todo-list/static/css/main.b35cfdb3.css.map",
+    "main.35755d36.js.map": "/not-todo-list/static/js/main.35755d36.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b35cfdb3.css",
+    "static/js/main.35755d36.js"
+  ]
+}
