@@ -1,4 +1,4 @@
-import './TodoListItem.css';
+import './TodoListItem.scss';
 
 export default function TodoListItem({label, important, done, onDeleted, onToggleImportant, onToggleDone}) {
   let classNames = 'todo-list-item';

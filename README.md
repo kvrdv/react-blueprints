@@ -1,3 +1,3 @@
-# Not todo list
+# React Blueprints
 
-Todo list on React
+Map, add/remove, sort, filter, search, forms on React 

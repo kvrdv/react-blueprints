@@ -1,6 +1,6 @@
 {
-  "homepage": "https://bencubin.github.io/not-todo-list",
-  "name": "reactive",
+  "homepage": "https://kvrdv.github.io/react-blueprints",
+  "name": "react-blueprints",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -39,6 +39,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "gh-pages": "^5.0.0",
+    "sass": "^1.58.3"
   }
 }

@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import './SearchPanel.css';
+import './SearchPanel.scss';
 
 export default function SearchPanel({onSearchChange}) {
   const [term, setTerm] = useState('');

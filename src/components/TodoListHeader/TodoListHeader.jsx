@@ -1,6 +1,6 @@
-import './AppHeader.css';
+import './TodoListHeader.scss';
 
-export default function AppHeader({todo, done}) {
+export default function TodoListHeader({todo, done}) {
   return (
     <div className="app-header d-flex">
       <h1>Todo list</h1>

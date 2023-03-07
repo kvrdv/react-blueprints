@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import "./ItemAddForm.css"
+import "./ItemAddForm.scss"
 
 export default function ItemAddForm({onItemAdded}) {
   const [label, setLabel] = useState('');

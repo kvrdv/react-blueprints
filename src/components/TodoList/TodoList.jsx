@@ -1,5 +1,5 @@
 import TodoListItem from '../TodoListItem/TodoListItem';
-import './TodoList.css';
+import './TodoList.scss';
 
 export default function TodoList({todos, onDeleted, onToggleImportant, onToggleDone}) {
   const elements = todos.map((item) => {
