@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-blueprints/static/css/main.23e9376e.css",
-    "main.js": "/react-blueprints/static/js/main.d37125fe.js",
+    "main.css": "/react-blueprints/static/css/main.c849e541.css",
+    "main.js": "/react-blueprints/static/js/main.8dab6a1a.js",
     "index.html": "/react-blueprints/index.html",
-    "main.23e9376e.css.map": "/react-blueprints/static/css/main.23e9376e.css.map",
-    "main.d37125fe.js.map": "/react-blueprints/static/js/main.d37125fe.js.map"
+    "main.c849e541.css.map": "/react-blueprints/static/css/main.c849e541.css.map",
+    "main.8dab6a1a.js.map": "/react-blueprints/static/js/main.8dab6a1a.js.map"
   },
   "entrypoints": [
-    "static/css/main.23e9376e.css",
-    "static/js/main.d37125fe.js"
+    "static/css/main.c849e541.css",
+    "static/js/main.8dab6a1a.js"
   ]
 }
