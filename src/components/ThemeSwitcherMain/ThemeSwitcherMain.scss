@@ -1,0 +1,50 @@
+.theme-switcher-main {
+    height: 100%;
+    color: #2b283a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__dark {
+        color: #ffffff;
+    }
+}
+
+.theme-switcher-main--header {
+    font-weight: 700;
+    font-size: 48px;
+    margin: 36px 0;
+    z-index: 1;
+}
+
+.theme-switcher-main--list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;	
+    list-style-type: none;
+    list-style-position: inside;
+    z-index: 1;
+    
+    li::before {
+        content: "\2022"; 
+        color: #00abca;   
+        font-weight: bold;     
+        font-size: 36px; 
+        line-height: 36px;	   
+        display: inline-block;
+        width: 36px;
+    } 
+
+    &__dark {
+        li::before {
+            color: #61dafb; 
+        } 
+    }
+}
+
+.theme-switcher-main--bgimage {
+    position: absolute;
+    right: 0;
+    top: 150px;
+    height: 45vh;
+}
