@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/react-blueprints/static/css/main.c849e541.css",
-    "main.js": "/react-blueprints/static/js/main.8dab6a1a.js",
+    "main.css": "/react-blueprints/static/css/main.93f176f4.css",
+    "main.js": "/react-blueprints/static/js/main.3204ea32.js",
+    "static/media/reactjsIconDark.png": "/react-blueprints/static/media/reactjsIconDark.e54f32cd4b2c2f8e0ec1.png",
+    "static/media/reactjsIcon.png": "/react-blueprints/static/media/reactjsIcon.4a8b58a9dafa88725b55.png",
+    "static/media/reactjsLogo.png": "/react-blueprints/static/media/reactjsLogo.f9ef5325cf497c94f39b.png",
+    "static/media/reactjsLogoDark.png": "/react-blueprints/static/media/reactjsLogoDark.1b7a034c1418646e4214.png",
     "index.html": "/react-blueprints/index.html",
-    "main.c849e541.css.map": "/react-blueprints/static/css/main.c849e541.css.map",
-    "main.8dab6a1a.js.map": "/react-blueprints/static/js/main.8dab6a1a.js.map"
+    "main.93f176f4.css.map": "/react-blueprints/static/css/main.93f176f4.css.map",
+    "main.3204ea32.js.map": "/react-blueprints/static/js/main.3204ea32.js.map"
   },
   "entrypoints": [
-    "static/css/main.c849e541.css",
-    "static/js/main.8dab6a1a.js"
+    "static/css/main.93f176f4.css",
+    "static/js/main.3204ea32.js"
   ]
 }
