@@ -1,0 +1,26 @@
+.todo-item {
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+
+    &__label {
+        margin-left: 1.25rem;
+        line-height: 35px;
+        cursor: pointer;
+        user-select: none;
+    }
+    
+    &__button {
+        width: 35px;
+        margin: 3px;
+    }
+
+    &_done .todo-item__label {
+        text-decoration: line-through;
+    }
+    
+    &_important .todo-item__label {
+        font-weight: bold;
+        color: steelblue;
+    }
+}

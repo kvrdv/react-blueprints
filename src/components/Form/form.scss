@@ -1,0 +1,28 @@
+.form__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px; 
+}
+
+.form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__fieldset {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #ced4da;
+    border-radius: .375rem;
+}
+
+.form__checkbox {
+    margin: 16px 0;
+}
+
+.form__input-label {
+    width: 100px;
+}

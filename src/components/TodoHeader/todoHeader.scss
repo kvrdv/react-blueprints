@@ -1,0 +1,12 @@
+.todo-header {
+    align-items: flex-end;
+
+    &__name {
+        flex-grow: 1;
+    }
+
+    &__counter {
+        font-size: 1.1rem;
+        color: gray;
+    }
+}

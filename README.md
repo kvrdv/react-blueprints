@@ -1,1 +1,1 @@
-# React Blueprints
+# react-blueprints

@@ -1,0 +1,17 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+
+    &__form {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    &__checkbox {
+        margin: 12px 0;
+    }
+}
