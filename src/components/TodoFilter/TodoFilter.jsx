@@ -6,7 +6,7 @@ export default function TodoFilter({filter, onFilterChange}) {
     ];
 
     const buttons = elements.map(({name, label}) => {
-        const isActive = filter === name; // maybe not strict compare
+        const isActive = filter === name;
         const classNames = isActive ? 'btn-info' : 'btn-outline-secondary';
 
         return (

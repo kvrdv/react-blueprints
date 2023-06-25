@@ -21,7 +21,7 @@ export default function TodoAdd({onItemAdded}) {
                 type="text"                
                 onChange={onLabelChange} 
                 value={label} 
-                placeholder="What needs to be done" 
+                placeholder="New todo" 
             />
 
             <button className="btn btn-outline-secondary">

@@ -19,7 +19,7 @@ export default function App() {
 
     const onNavChange = (name) => {
         setActiveNav(name);
-        const idx = views.findIndex((el) => el.name === name);
+        const idx = views.findIndex((v) => v.name === name);
         setActiveView(views[idx].element);      
     }
 

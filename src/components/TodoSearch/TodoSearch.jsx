@@ -4,15 +4,17 @@ import './todoSearch.scss';
 export default function TodoSearch({onSearchChange}) {
     const [term, setTerm] = useState('');
 
-    function onSearchPanelChange(event) {
-        setTerm(event.target.value);
-        onSearchChange(term);
+    const onTodoSearchChange = (event) => {
+        const filterValue = event.target.value;
+        setTerm(filterValue);
+        onSearchChange(filterValue);
     }
 
     return <input 
-        className="todo-search__input" 
-        placeholder="search" 
+        type="text"
+        className="todo-search__input form-control" 
+        placeholder="Search" 
         value={term} 
-        onChange={onSearchPanelChange} 
+        onChange={onTodoSearchChange} 
     />   
 }
